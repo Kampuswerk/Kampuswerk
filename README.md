@@ -1,4 +1,4 @@
-# MasterKampuswerk
+# Kampuswerk (Production)
 
 This is a Flask web application for conducting and logging your Rock Climbing Training sessions 
 
