@@ -1,0 +1,13 @@
+# Kampuswerk - development requirements.txt file
+-r common.txt
+
+# Flask extensions 
+Flask-Testing
+
+# Database support
+pysqlite>=2.8.0
+
+# Development utilities
+pytest
+pytest-flask
+virtualenv==15.1.0

@@ -1,0 +1,25 @@
+# Kampuswerk - common requirements.txt file
+
+# Flask framework
+Flask>=0.11
+
+# Flask extensions 
+Flask-Excel>=0.0.5
+Flask-Login>=0.4.0
+Flask-Migrate>=2.0.3
+Flask-Script>=2.0.5
+Flask-SQLAlchemy>=2.1
+Flask-WTF>=0.14.2
+
+# Database packages
+alembic>=0.8.10
+SQLAlchemy>=1.1.5
+
+# Template packages
+Jinja2==2.8
+Mako==1.0.6
+MarkupSafe==0.23
+
+# Authentication and security 
+rauth>=0.7.3
+wincertstore>=0.2

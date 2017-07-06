@@ -1,0 +1,5 @@
+# Kampuswerk - production requirements.txt file
+-r common.txt
+
+# Database support
+PyMySQL>=0.7.10
