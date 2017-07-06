@@ -1,7 +1,10 @@
+# Kampuswerk .gitignore file
+/.vs*
+__pycache__
 *.pyc
-instance/
-venv/
-setup.bat
-myvirtualenv/
 *.sublime-project
 *.sublime-workspace
+setup.bat
+instance/
+myvirtualenv/
+venv/
