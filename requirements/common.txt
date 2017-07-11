@@ -1,5 +1,8 @@
 # Kampuswerk - common requirements.txt file
 
+# WSGI
+Werkzeug>=0.12
+
 # Flask framework
 Flask>=0.11
 
