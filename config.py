@@ -1,9 +1,13 @@
+"""Kampuswerk configuration
+"""
+import os
+
 class Config(object):
     """Common settings.
     """
     DEBUG = False
     TESTING = False
-    SECRET_KEY = 'you-really-need-to-change-this'
+    SECRET_KEY = os.environ.get('SECRET_KEY') or 'you-really-need-to-change-this'
     SQLALCHEMY_POOL_RECYCLE = 499
     SQLALCHEMY_POOL_TIMEOUT = 20
 
@@ -25,8 +29,11 @@ class ProductionConfig(Config):
     """
     DEBUG = False
 
+
 app_config = {
     'development': DevelopmentConfig,
     'staging': StagingConfig,
-    'production': ProductionConfig
+    'production': ProductionConfig,
+
+    'default': DevelopmentConfig
 }
